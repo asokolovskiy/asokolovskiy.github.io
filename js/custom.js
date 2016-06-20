@@ -40,7 +40,11 @@ $(function() {
 	            dots: true,
 	        },
 	        600:{
+<<<<<<< HEAD
 	            items:2,
+=======
+	            items:3,
+>>>>>>> dbb78a23123f2d6e256eaa9971d609eea5eda395
 	            nav:false,
 	            dots: true,
 	        },
