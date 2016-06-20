@@ -32,6 +32,25 @@ $(function() {
 		loop: true,
 		dots: true,
 		stagePadding: 10,
+		responsiveClass:true,
+	    responsive:{
+	        0:{
+	            items:1,
+	            nav:false,
+	            dots: true,
+	        },
+	        600:{
+	            items:1,
+	            nav:false,
+	            dots: true,
+	        },
+	        1000:{
+	            items:1,
+	            nav:false,
+	            loop:true,
+	            dots: true,
+	        }
+	    }
 	});
 	$(".toggle").click(function() {
 	  $(this).toggleClass("on");
