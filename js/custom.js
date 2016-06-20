@@ -9,17 +9,17 @@ $(function() {
 		responsiveClass:true,
 	    responsive:{
 	        0:{
-	            items:2,
+	            items:1,
 	            nav:false,
 	            dots: true,
 	        },
 	        600:{
-	            items:3,
+	            items:1,
 	            nav:false,
 	            dots: true,
 	        },
 	        1000:{
-	            items:3,
+	            items:1,
 	            nav:false,
 	            loop:true,
 	            dots: true,
@@ -35,17 +35,17 @@ $(function() {
 		responsiveClass:true,
 	    responsive:{
 	        0:{
-	            items:1,
+	            items:2,
 	            nav:false,
 	            dots: true,
 	        },
 	        600:{
-	            items:1,
+	            items:3,
 	            nav:false,
 	            dots: true,
 	        },
 	        1000:{
-	            items:1,
+	            items:3,
 	            nav:false,
 	            loop:true,
 	            dots: true,
