@@ -40,12 +40,12 @@ $(function() {
 	            dots: true,
 	        },
 	        600:{
-	            items:1,
+	            items:2,
 	            nav:false,
 	            dots: true,
 	        },
 	        1000:{
-	            items:1,
+	            items:3,
 	            nav:false,
 	            loop:true,
 	            dots: true,
