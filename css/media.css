@@ -3,7 +3,17 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
   /* */
-
+  .logo {
+		text-align: center;
+		width: 100%;
+		margin-top: 70px;
+	}
+	.logo-wrap {
+		display: inline-block;
+	}	
+	.slider{
+		margin-top: 30px;
+	}
   }
 
 /* Medium Devices, Desktops */
