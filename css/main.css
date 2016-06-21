@@ -201,7 +201,7 @@ a {
 	height: 667px;
 }
 .section-title {
-	margin-top: 30px;
+	margin: 30px 0px 30px;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -212,15 +212,20 @@ a {
 	color: #fff;
 	font-family: 'HelveticaBlack', sans-serif;
 }
+.section-line{
+	height: 2px;
+	background-color: #ffba01;
+	width: 120px;
+}
 /*Slider in Section About Us*/
 .slide-wrap {
 	width: 100%;
+	text-align: center;
 }
 .slide-img {
 	display: inline-block;
 	width: 168px;
 	height: 168px;
-	text-align: center;
 }
 /*Dots in Slider*/
 .slider-about-us .owl-dots {
