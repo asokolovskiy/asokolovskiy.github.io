@@ -39,6 +39,13 @@
 	.main-text-about {
 		font-size: 16px;
 	}
+	.logo {
+		text-align: center;
+		width: 100%;
+	}
+	.logo-wrap {
+		display: inline-block;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -53,6 +60,10 @@
 	}
 	.logo {
 		text-align: center;
+		width: 100%;
+	}
+	.logo-wrap {
+		display: inline-block;
 	}
 	
 	.slider-text-wrap .main-text {
