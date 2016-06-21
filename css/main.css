@@ -212,28 +212,15 @@ a {
 	color: #fff;
 	font-family: 'HelveticaBlack', sans-serif;
 }
-/*Video in Section About Uss*/
-.video-about-us video {
-	height: 100px;
-	width: 100px;
-}
-.vid-wrap {
-	text-align: center;
-	margin-top: 50px;
-}
-iframe {
-	border: 2px solid #fff;
-}
-iframe:hover {
-	border: 2px solid #ffba01;
-}
 /*Slider in Section About Us*/
-.slider-about-us .slide-photo {
-	-ms-background-position-x: center;
-	background-position-x: center;
-	width: 175px;
-	height: 172px;
-	background-repeat: no-repeat;
+.slide-wrap {
+	width: 100%;
+}
+.slide-img {
+	display: inline-block;
+	width: 168px;
+	height: 168px;
+	text-align: center;
 }
 /*Dots in Slider*/
 .slider-about-us .owl-dots {
