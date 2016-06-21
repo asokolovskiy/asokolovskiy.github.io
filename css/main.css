@@ -208,8 +208,8 @@ a {
 .section-title-text {
 	font-size: 26px;
 	width: 100%;
-	text-align: center;
-	color: #ffba01;
+	text-align: left;
+	color: #fff;
 	font-family: 'HelveticaBlack', sans-serif;
 }
 /*Video in Section About Uss*/
@@ -281,18 +281,5 @@ iframe:hover {
 	color: #909090;
 	font-family: 'HelvetivaLight',sans-serif;
 	letter-spacing: 1px;
-}
-.subtitle-about-us, .subtitle-prezent {
-	margin-bottom: 35px;
-	color: white;
-	font-size: 20px;
-	font-family: 'HelveticaBlack', sans-serif;
-	letter-spacing: 1px;
-}
-.subtitle-about-us {
-	text-align: center;
-}
-.subtitle-prezent {
-	text-align: center;
 }
 @import 'media.css'
