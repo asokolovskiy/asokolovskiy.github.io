@@ -46,6 +46,9 @@
 	.logo-wrap {
 		display: inline-block;
 	}
+	.slider{
+		margin-top: 30px;
+	}
 }
 
 /* Extra Small Devices, Phones */
