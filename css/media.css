@@ -28,7 +28,7 @@
 @media only screen and (max-width: 768px) {
   /* */
   	.header-wrap::before {
-  		margin-top: 40px;
+
   	}
   	.social-wrap {
   		float: right;
