@@ -201,21 +201,16 @@ a {
 	height: 667px;
 }
 .section-title {
-	margin: 30px 0px 30px;
+	margin-top: 30px;
 	text-align: center;
 	text-transform: uppercase;
 }
 .section-title-text {
 	font-size: 26px;
 	width: 100%;
-	text-align: left;
-	color: #fff;
+	text-align: center;
+	color: #ffba01;
 	font-family: 'HelveticaBlack', sans-serif;
-}
-.section-line{
-	height: 2px;
-	background-color: #ffba01;
-	width: 120px;
 }
 /*Video in Section About Uss*/
 .video-about-us video {
@@ -233,37 +228,12 @@ iframe:hover {
 	border: 2px solid #ffba01;
 }
 /*Slider in Section About Us*/
-.slider-about-us .img-wrap{
-	width: 100%;
-	text-align: center;
-}
-.slider-about-us .slide-img {
-	height: 168px;
-	width: 168px;
-	display: inline-block;
-	text-align: center;
-}
-.slide .about-us-name {
-	text-transform: uppercase;
-	font-family: 'HelveticaBlack', sans-serif;
-	color: #ffba01;
-	letter-spacing: 1px;
-	margin-top: 10px;
-	text-align: center;	
-}
-.about-us-job {
-	color: #fff;
-	font-size: 14px;
-	letter-spacing: 1px;
-	font-family: 'HelvetivaLight',sans-serif;
-	text-align: center;
-}
-.about-us-about {
-	font-size: 12px;
-	color: #909090;
-	font-family: 'HelvetivaLight',sans-serif;
-	letter-spacing: 1px;
-	text-align: center;
+.slider-about-us .slide-photo {
+	-ms-background-position-x: center;
+	background-position-x: center;
+	width: 175px;
+	height: 172px;
+	background-repeat: no-repeat;
 }
 /*Dots in Slider*/
 .slider-about-us .owl-dots {
@@ -289,5 +259,40 @@ iframe:hover {
 .slider-about-us .owl-dots .owl-dot.active {
 	background-color: #ffba01;
 }
-
+.slide .about-us-name {
+	text-transform: uppercase;
+	font-family: 'HelveticaBlack', sans-serif;
+	color: #ffba01;
+	letter-spacing: 1px;
+	margin-top: 10px;	
+}
+.slide a {
+		text-decoration: none;
+		font-size: 16px;
+}
+.about-us-job {
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: 'HelvetivaLight',sans-serif;
+}
+.about-us-about {
+	font-size: 12px;
+	color: #909090;
+	font-family: 'HelvetivaLight',sans-serif;
+	letter-spacing: 1px;
+}
+.subtitle-about-us, .subtitle-prezent {
+	margin-bottom: 35px;
+	color: white;
+	font-size: 20px;
+	font-family: 'HelveticaBlack', sans-serif;
+	letter-spacing: 1px;
+}
+.subtitle-about-us {
+	text-align: center;
+}
+.subtitle-prezent {
+	text-align: center;
+}
 @import 'media.css'
