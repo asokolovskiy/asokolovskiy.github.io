@@ -59,6 +59,16 @@ a {
 	color: #ffba01;
 }
 /*Socail Icons*/
+.mmenu .social-wrap {
+	text-align: right;
+	margin-top: 15px;
+}
+.mmenu .social-wrap .fa {
+	color: #000;
+}
+.mmenu .social-wrap .fa:hover{
+	color: #fff;
+}
 .social-wrap {
 	text-align: center;
 	margin-top: 55px;
