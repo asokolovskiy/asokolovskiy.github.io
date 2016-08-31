@@ -4293,3 +4293,9 @@ section.section {
   -webkit-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
 }
+.navbar-fixed-bottom, .navbar-fixed-top {
+  height: 70px; 
+}
+.contact-footer .social-icon li a {
+  line-height: 19px;
+}
