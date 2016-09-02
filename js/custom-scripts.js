@@ -185,7 +185,13 @@
     });
     wow.init();
 
-
+    $(".client-logo").owlCarousel({
+     
+          autoPlay: 3000,
+          items : 6,
+          itemsDesktop : [1199,3],
+          itemsDesktopSmall : [979,3],     
+      });
 
 
     /**
@@ -610,7 +616,7 @@
 
 
   });
-
+  
 
 } (jQuery) );
 
