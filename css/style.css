@@ -1937,32 +1937,18 @@ section.section {
   height: auto;
   margin-top: -22px;
 }
-.item-inner .profile-content {
-  margin-top: 22px;
-  top: 0px;
-  position:relative;
-  z-index:20;
-}
 .each-item .profile-content span {
   display: block;
   line-height: 25px;
 }
-.each-item .profile-content .name {
-  color: #f7ac54;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-.each-item .profile-content .position {
-  font-size: 13px;
-  color: #ffffff;
-}
 .each-item .content-detail {
-  opacity:.92;
-  filter: alpha(opacity=92);
+  font-family: 'Open Sans', sans-serif;
+  opacity:.95;
+  filter: alpha(opacity=95);
   top:-100%;
   left:0;
   width:100%;
-  height:75%;
+  height:70%;
   background: #171717;
   position:absolute;
   -webkit-transition: all 0.2s ease-out;
@@ -1970,18 +1956,38 @@ section.section {
   -o-transition: all 0.2 s ease-out;
   -ms-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+  font-size: 16px;
 }
 .each-item:hover .content-detail {
   top:0;
+  z-index: 7;
+}
+.item-inner .profile-content {
+  margin-top: 22px;
+  top: 0px;
+}
+.each-item .profile-content .name {
+  color: #f7ac54;
+  font-weight: 600;
+  text-transform: uppercase;
+  z-index: 5;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.each-item .profile-content .position {
+  font-size: 13px;
+  color: #ffffff;
+  z-index: 5;
+  margin: 0;
+  padding: 0;
+  position: relative;
 }
 .each-item .content-detail p {  
   color: #fff;
-}
-.content-detail {
-  font-size: 16px;
-}
-.each-item .content-detail {
-  background: #171717;
+  max-width: 289px;
+  padding-top: 6px;
+  color: #9c9c9c;
 }
 .team-member .each-item {
   padding-bottom: 50px;
