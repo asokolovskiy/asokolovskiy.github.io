@@ -1833,66 +1833,6 @@ section.section {
  * Testimonials Section Style
  * ========================================
  */
-.testimonial-section .testimonial-wrapper {
-  margin-top: 55px;
-}
-.testimonial-section .testimonial-wrapper .owl-wrapper-outer {
-  -o-box-shadow: 2px 4.33px 25px 0px rgba(0, 0, 0, 0.25) ;
-  -ms-box-shadow: 2px 4.33px 25px 0px rgba(0, 0, 0, 0.25) ;
-  -moz-box-shadow: 2px 4.33px 25px 0px rgba(0, 0, 0, 0.25) ;
-  -webkit-box-shadow: 2px 4.33px 25px 0px rgba(0, 0, 0, 0.25) ;
-  box-shadow: 2px 4.33px 25px 0px rgba(0, 0, 0, 0.25) ;
-}
-.testimonial-section .testimonial-wrapper .owl-wrapper-outer .owl-wrapper {
-  background-color: #171717;
-}
-.testimonial-section .testimonial-wrapper .owl-item {
-  background-color: #171717;
-}
-.testimonial-section .testimonial-wrapper .item {
-  padding: 0 80px;
-}
-.testimonial-section .testimonial-wrapper .item .image-outer img {
-  width: 80px;
-  height: auto;
-}
-.testimonial-section .testimonial-wrapper .item blockquote {
-  border: 0px solid;
-  margin: 0;
-  padding: 0;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 35px;
-  color: #BBBBBB;
-}
-.testimonial-section .testimonial-wrapper .item .profile-outer {
-  display: inline-block;
-  background-color: #171717;
-  padding: 0 40px;
-}
-.testimonial-section .testimonial-wrapper .item .profile-outer::before {
-  content: '';
-  position: absolute;
-  height: 1px;
-  background: rgba(255, 255, 255, 0.18);
-  left: 110px;
-  right: 110px;
-  margin-top: 13px;
-  z-index: -1;
-}
-.testimonial-section .testimonial-wrapper .item .profile-outer span {
-  display: block;
-  line-height: 35px;
-}
-.testimonial-section .testimonial-wrapper .item .profile-outer .name {
-  color: #f7ac54;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-.testimonial-section .testimonial-wrapper .item .profile-outer .position {
-  font-size: 13px;
-  color: #ffffff;
-}
 .pagination-style-1 > .owl-controls {
   text-align: center;
 }
@@ -1991,219 +1931,57 @@ section.section {
  * Team Section Style
  * ========================================
  */
-.team-member .each-item .item-inner::after,
-.team-member .each-item .item-inner::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  background-color: #f7ac54;
-  -o-transition-delay: 0s ;
-  -ms-transition-delay: 0s ;
-  -moz-transition-delay: 0s ;
-  -webkit-transition-delay: 0s ;
-  transition-delay: 0s ;
-  -o-transition: all 0.6s cubic-bezier(0.785, 0.135, 0.15, 0.86);
-  -ms-transition: all 0.6s cubic-bezier(0.785, 0.135, 0.15, 0.86);
-  -moz-transition: all 0.6s cubic-bezier(0.785, 0.135, 0.15, 0.86);
-  -webkit-transition: all 0.6s cubic-bezier(0.785, 0.135, 0.15, 0.86);
-  transition: all 0.6s cubic-bezier(0.785, 0.135, 0.15, 0.86);
-  -o-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  -o-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -o-perspective: 1000;
-  -ms-perspective: 1000;
-  -moz-perspective: 1000;
-  -webkit-perspective: 1000;
-  perspective: 1000;
-}
-.team-member .each-item .item-inner::before {
-  width: 75px;
-  height: 1px;
-  -o-transform: translate3d( -110%, 0px, 0px );
-  -ms-transform: translate3d( -110%, 0px, 0px );
-  -moz-transform: translate3d( -110%, 0px, 0px );
-  -webkit-transform: translate3d( -110%, 0px, 0px );
-  transform: translate3d( -110%, 0px, 0px );
-}
-.team-member .each-item .item-inner::after {
-  width: 1px;
-  height: 75px;
-  -o-transform: translate3d( 0px, -110%, 0px );
-  -ms-transform: translate3d( 0px, -110%, 0px );
-  -moz-transform: translate3d( 0px, -110%, 0px );
-  -webkit-transform: translate3d( 0px, -110%, 0px );
-  transform: translate3d( 0px, -110%, 0px );
-}
-.team-member .each-item,
-.team-member .each-item .profile-outer,
-.team-member .each-item .profile-image,
-.team-member .each-item .profile-image img,
-.team-member .each-item .profile-content {
-  -o-transition: all 500ms ease-out;
-  -ms-transition: all 500ms ease-out;
-  -moz-transition: all 500ms ease-out;
-  -webkit-transition: all 500ms ease-out;
-  transition: all 500ms ease-out;
-  -o-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  -o-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -o-perspective: 1000;
-  -ms-perspective: 1000;
-  -moz-perspective: 1000;
-  -webkit-perspective: 1000;
-  perspective: 1000;
-}
-.team-member .each-item .profile-image img {
-  border-radius: 50%;
+
+.each-item .profile-image img {
   margin: auto;
-  width: 121px;
   height: auto;
+  margin-top: -22px;
 }
-.team-member .each-item .profile-content {
+.item-inner .profile-content {
   margin-top: 22px;
   top: 0px;
+  position:relative;
+  z-index:20;
 }
-.team-member .each-item .profile-content span {
+.each-item .profile-content span {
   display: block;
   line-height: 25px;
 }
-.team-member .each-item .profile-content .name {
+.each-item .profile-content .name {
   color: #f7ac54;
   font-weight: 600;
   text-transform: uppercase;
 }
-.team-member .each-item .profile-content .position {
+.each-item .profile-content .position {
   font-size: 13px;
   color: #ffffff;
 }
-.team-member .each-item .content-detail {
-  width: -moz-calc( 100% - 65px );
-  width: -webkit-calc( 100% - 65px );
-  width: -o-calc( 100% - 65px );
-  width: calc( 100% - 65px );
-  width: expression( 100% - 65px );
-  text-align: left;
-  float: right;
-  padding: 10px 20px 0px 20px;
-  -o-transform: translate3d(0, 50px, 0);
-  -ms-transform: translate3d(0, 50px, 0);
-  -moz-transform: translate3d(0, 50px, 0);
-  -webkit-transform: translate3d(0, 50px, 0);
-  transform: translate3d(0, 50px, 0);
-  filter: alpha(opacity=0 ) ;
-  opacity: 0 ;
-  -o-transition-delay: 0s ;
-  -ms-transition-delay: 0s ;
-  -moz-transition-delay: 0s ;
-  -webkit-transition-delay: 0s ;
-  transition-delay: 0s ;
-  -o-transition: all 400ms cubic-bezier(0.42, 0, 1, 1);
-  -ms-transition: all 400ms cubic-bezier(0.42, 0, 1, 1);
-  -moz-transition: all 400ms cubic-bezier(0.42, 0, 1, 1);
-  -webkit-transition: all 400ms cubic-bezier(0.42, 0, 1, 1);
-  transition: all 400ms cubic-bezier(0.42, 0, 1, 1);
-  -o-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  -o-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -o-perspective: 1000;
-  -ms-perspective: 1000;
-  -moz-perspective: 1000;
-  -webkit-perspective: 1000;
-  perspective: 1000;
+.each-item .content-detail {
+  opacity:.92;
+  filter: alpha(opacity=92);
+  top:-100%;
+  left:0;
+  width:100%;
+  height:75%;
+  background: #171717;
+  position:absolute;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2 s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
-.team-member .each-item .content-detail p {
-  font-size: 13px;
-  line-height: 25px;
-  font-weight: 400;
+.each-item:hover .content-detail {
+  top:0;
 }
-.team-member .each-item:hover {
-  -o-transition-delay: 0.2s ;
-  -ms-transition-delay: 0.2s ;
-  -moz-transition-delay: 0.2s ;
-  -webkit-transition-delay: 0.2s ;
-  transition-delay: 0.2s ;
+.each-item .content-detail p {  
+  color: #fff;
 }
-.team-member .each-item:hover .item-inner::after,
-.team-member .each-item:hover .item-inner::before {
-  -o-transition-delay: 0s ;
-  -ms-transition-delay: 0s ;
-  -moz-transition-delay: 0s ;
-  -webkit-transition-delay: 0s ;
-  transition-delay: 0s ;
-  -o-transform: translate3d( 0px, 0, 0px );
-  -ms-transform: translate3d( 0px, 0, 0px );
-  -moz-transform: translate3d( 0px, 0, 0px );
-  -webkit-transform: translate3d( 0px, 0, 0px );
-  transform: translate3d( 0px, 0, 0px );
+.content-detail {
+  font-size: 16px;
 }
-.team-member .each-item:hover .profile-image img {
-  width: 50px;
-}
-.team-member .each-item:hover .profile-content {
-  -o-transform: translate3d(0, 15px, 0) rotate(90deg);
-  -ms-transform: translate3d(0, 15px, 0) rotate(90deg);
-  -moz-transform: translate3d(0, 15px, 0) rotate(90deg);
-  -webkit-transform: translate3d(0, 15px, 0) rotate(90deg);
-  transform: translate3d(0, 15px, 0) rotate(90deg);
-  position: relative;
-  text-align: left;
-  margin: 0;
-  top: 40px;
-}
-.team-member .each-item:hover .profile-content span {
-  text-overflowtext-overflow: ellipsis;
-  white-space: nowrap;
-}
-.team-member .each-item:hover .profile-outer {
-  left: -42px;
-  top: 0;
-  -o-transform: translate3d(15px, 15px, 0);
-  -ms-transform: translate3d(15px, 15px, 0);
-  -moz-transform: translate3d(15px, 15px, 0);
-  -webkit-transform: translate3d(15px, 15px, 0);
-  transform: translate3d(15px, 15px, 0);
-}
-.team-member .each-item:hover .content-detail {
-  -o-transition-delay: 0.5s ;
-  -ms-transition-delay: 0.5s ;
-  -moz-transition-delay: 0.5s ;
-  -webkit-transition-delay: 0.5s ;
-  transition-delay: 0.5s ;
-  -o-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-  filter: alpha(opacity=100 ) ;
-  opacity: 1 ;
+.each-item .content-detail {
+  background: #171717;
 }
 .team-member .each-item {
   padding-bottom: 50px;
@@ -2232,60 +2010,7 @@ section.section {
   perspective: 1000;
   height: 330px;
 }
-@media (min-width: 0px) {
-  .team-member .each-item {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  .team-member .each-item:after,
-  .team-member .each-item:before {
-    content: "";
-    position: absolute;
-  }
-  .team-member .each-item:after {
-    bottom: 0;
-    left: 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    width: 100%;
-  }
-  .team-member .each-item:before {
-    left: 0;
-    top: 0;
-    border-left: 1px solid rgba(255, 255, 255, 0.05);
-    height: 100%;
-  }
-  .team-member .each-item:last-child:after {
-    border-color: transparent;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .team-member .each-item:nth-child(n + 3) {
-    padding-top: 50px;
-  }
-  .team-member .each-item:nth-child(2n - 1):before {
-    border-color: transparent;
-  }
-  .team-member .each-item:nth-last-child(-n + 2) {
-    padding-bottom: 0;
-  }
-  .team-member .each-item:nth-last-child(-n + 2):after {
-    border-color: transparent;
-  }
-}
-@media (min-width: 992px) {
-  .team-member .each-item:nth-child(n + 5) {
-    padding-top: 50px;
-  }
-  .team-member .each-item:nth-child(4n + 1):before {
-    border-color: transparent;
-  }
-  .team-member .each-item:nth-last-child(-n + 4) {
-    padding-bottom: 0;
-  }
-  .team-member .each-item:nth-last-child(-n + 4):after {
-    border-color: transparent;
-  }
-}
+
 /**
  * ========================================
  * Home Section Animation

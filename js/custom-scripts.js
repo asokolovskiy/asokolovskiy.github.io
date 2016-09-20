@@ -513,7 +513,7 @@
      * TESTIMONIAL SYNC WITH CLIENTS
      * =======================================
      */
-    var testimonialSlider = $(".testimonial-wrapper"); // client's message
+    /*var testimonialSlider = $(".testimonial-wrapper"); // client's message
     testimonialSlider.owlCarousel({
       singleItem :        true,
       autoPlay :          3000,
